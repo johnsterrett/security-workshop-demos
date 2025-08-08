@@ -1,0 +1,137 @@
+Jun 23 2025 01:04:34: Log opened. TraceLevel:Informational
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:Source database settings.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	Source server name: sql2025.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	Source database name: contosohr.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:Run settings.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	Encryption approach: Offline.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:Encrypt column SSN.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	  Table name: Employees.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	  Encryption key name: CEK.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	  Encryption type: Randomized.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	Operation mode: Client-side.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:Encrypt column LastName.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	  Table name: Employees.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	  Encryption key name: CEK.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	  Encryption type: Randomized.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	Operation mode: Client-side.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:Encrypt column Salary.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	  Table name: Employees.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	  Encryption key name: CEK.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	  Encryption type: Randomized.
+
+Jun 23 2025 01:06:08 [Informational] WizardSummary: Message:	Operation mode: Client-side.
+
+Jun 23 2025 01:06:49 [Informational] WorkitemExecution: Message:Work item 'Performing encryption operations' started..
+
+Jun 23 2025 01:06:49 [Informational] TaskUpdates: Message:Task: 'Performing encryption operations' -- Status: 'Started' -- Details: 'Task 'Performing encryption operations' started ....'.
+
+Jun 23 2025 01:07:09 [Informational] DacFxMigration: Message:DacFx state update: Pending: Initializing deployment.
+
+Jun 23 2025 01:07:09 [Informational] DacFxMigration: Message:DacFx state update: Pending: Analyzing deployment plan.
+
+Jun 23 2025 01:07:09 [Informational] DacFxMigration: Message:DacFx state update: Pending: Updating database.
+
+Jun 23 2025 01:07:09 [Informational] DacFxMigration: Message:DacFx state update: Pending: Creating deployment plan.
+
+Jun 23 2025 01:07:09 [Informational] DacFxMigration: Message:DacFx state update: Pending: Verifying deployment plan.
+
+Jun 23 2025 01:07:09 [Informational] DacFxMigration: Message:DacFx state update: Pending: Deploying package to database.
+
+Jun 23 2025 01:07:09 [Informational] DacFxMigration: Message:DacFx state update: Running: Creating deployment plan.
+
+Jun 23 2025 01:07:09 [Informational] DacFxMigration: Message:DacFx state update: Running: Initializing deployment.
+
+Jun 23 2025 01:07:09 [Informational] DacFxMigration: Message:Initializing deployment (Start).
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:DacFx state update: Completed: Initializing deployment.
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:Initializing deployment (Complete).
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:DacFx state update: Completed: Creating deployment plan.
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:DacFx state update: Running: Verifying deployment plan.
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:DacFx state update: Running: Analyzing deployment plan.
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:Analyzing deployment plan (Start).
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:DacFx state update: Completed: Analyzing deployment plan.
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:Analyzing deployment plan (Complete).
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:DacFx state update: Completed: Verifying deployment plan.
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:DacFx state update: Running: Deploying package to database.
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:DacFx state update: Running: Updating database.
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:Updating database (Start).
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:Starting column encryption..
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:Starting data migration for cryptographic operations in table '[dbo].[Employees]'..
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:DacFx state update: Running: Processing data migration..
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:DacFx state update: Pending: Processing Table '[dbo].[Employees]'..
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:Processing data migration. 0.00% done..
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:DacFx state update: Running: Processing Table '[dbo].[Employees]'..
+
+Jun 23 2025 01:07:31 [Informational] DacFxMigration: Message:Table '[dbo].[Employees]' has a part count of 2..
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:Processing data migration. 0.37% done..
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:Processing Table '[dbo].[Employees]'. 0.37% done..
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:Processing Table '[dbo].[Employees]'. 100.00% done..
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:Processing data migration. 100.00% done..
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:DacFx state update: Completed: Processing Table '[dbo].[Employees]'..
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:DacFx state update: Completed: Processing data migration..
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:Completing data encryption for '[dbo].[Employees]'..
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:Creating Permission Permission....
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:Creating Permission Permission....
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:The transacted portion of the database update succeeded..
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:Update complete..
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:DacFx state update: Completed: Updating database.
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:Updating database (Complete).
+
+Jun 23 2025 01:07:32 [Informational] DacFxMigration: Message:DacFx state update: Completed: Deploying package to database.
+
+Jun 23 2025 01:07:32 [Informational] TaskUpdates: Message:Task: 'Performing encryption operations' -- Status: 'Completed' -- Details: 'Task 'Performing encryption operations' completed'.
+
+Jun 23 2025 01:07:32 [Informational] WorkitemExecution: Message:Work item 'Performing encryption operations' stopped..
+
+Jun 23 2025 01:07:32 [Informational] WorkitemExecution: Message:Work item 'Performing encryption operations' completed successfully!.
+
+Jun 23 2025 01:07:32 [Informational] Log Closed: Message:Job processing completed.
+

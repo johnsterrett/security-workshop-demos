@@ -1,0 +1,24 @@
+use [master]
+go
+
+CREATE SERVER AUDIT SPECIFICATION ServerLevelComplianceAudit
+FOR SERVER AUDIT ComplianceSecurityAudit
+-- Authentication and Authorization (All Regulations)
+ADD (FAILED_LOGIN_GROUP),
+ADD (SUCCESSFUL_LOGIN_GROUP),
+ADD (LOGOUT_GROUP),
+ADD (LOGIN_CHANGE_PASSWORD_GROUP),
+-- Privileged Operations (PCI, HIPAA, ISO 27001, SOX)
+ADD (SERVER_ROLE_MEMBER_CHANGE_GROUP),
+ADD (SERVER_PRINCIPAL_CHANGE_GROUP),
+ADD (SERVER_PERMISSION_CHANGE_GROUP),
+-- Configuration Changes (All Regulations)
+ADD (AUDIT_CHANGE_GROUP),
+ADD (SERVER_STATE_CHANGE_GROUP),
+ADD (SERVER_OPERATION_GROUP),
+-- Backup and Restore Operations (HIPAA, GDPR, SOX)
+ADD (BACKUP_RESTORE_GROUP),
+-- Trace and Audit Management (All Regulations)
+ADD (TRACE_CHANGE_GROUP)
+WITH (STATE = ON);
+GO

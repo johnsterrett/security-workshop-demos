@@ -1,0 +1,12 @@
+USE [contosohr]
+GO
+
+ALTER TABLE dbo.Employees
+ALTER COLUMN LastName DROP MASKED;
+
+ALTER TABLE dbo.Employees
+ALTER COLUMN Salary DROP MASKED;
+
+ALTER TABLE dbo.Employees
+ALTER COLUMN SSN DROP MASKED;
+GO
