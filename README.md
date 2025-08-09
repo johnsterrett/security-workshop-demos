@@ -30,7 +30,7 @@ To complete this workshop you will need the following:
 <h3><b>Setup</b></h3>
 In order to complete the exercises in this workshop you will need <b>one of the following two Database Platforms installed</b>:
 
-- **SQL Server 2022 Evaluation Edition or Developer Edition General Availability** from (https://aka.ms/getsqlserver2022) with the Database Engine feature installed.
+- **SQL Server 2022 Evaluation or Developer Edition** from (https://aka.ms/getsqlserver2022) with the Database Engine feature installed.
 - **SQL Server 2025 Community Technology Preview** from (https://aka.ms/getsqlserver2025) with the Database Engine feature installed.
   
 In order to complete the exercises in this workshop you will need <b> all of the following</b>:
